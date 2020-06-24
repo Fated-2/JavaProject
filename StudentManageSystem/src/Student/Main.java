@@ -1,5 +1,6 @@
 package Student;
 
+//123
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -10,7 +11,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
-//(Ö»ÄÜÓÐÒ»¸ö¹«¹²publicÀà)
+//(Ö»ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½publicï¿½ï¿½)
 public class Main {
 
 	
@@ -21,42 +22,42 @@ public class Main {
 
 }
 
-//ÊéÐ´µÇÂ¼Ò³Ãæ£º
+//ï¿½ï¿½Ð´ï¿½ï¿½Â¼Ò³ï¿½æ£º
 class LoginDemo extends JFrame{
-	//ÓÃ»§ÃûÒÔ¼°ÃÜÂë£º
+	//ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ë£º
 	private String username="123";
 	private String password="123";
-	//´°¿Ú
+	//ï¿½ï¿½ï¿½ï¿½
 	public JFrame window;
-	//ÓÃ»§Ãû¡¢ÃÜÂë¡¢ÎÄ±¾¿ò£º
+	//ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë¡¢ï¿½Ä±ï¿½ï¿½ï¿½
 	public JTextField user;
 	public JPasswordField pwd;
-	//µÇÂ¼µÄ°´Å¥
+	//ï¿½ï¿½Â¼ï¿½Ä°ï¿½Å¥
 	public JButton login;
-	//¹¹ÔìÆ÷³õÊ¼»¯
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½
 	public LoginDemo() {
-		//Ãæ°å³õÊ¼»¯£º
-		window=new JFrame("Ñ§Éú¹ÜÀíÏµÍ³");
-		//ÉèÖÃ³ß´ç  600   400£º
+		//ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½
+		window=new JFrame("Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÏµÍ³");
+		//ï¿½ï¿½ï¿½Ã³ß´ï¿½  600   400ï¿½ï¿½
 		window.setSize(600, 400);
-		//¾ÓÖÐÏÔÊ¾£º
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½
 		window.setLocationRelativeTo(null);
-		//Ä¬ÈÏ¿É¹Ø±Õ£º
+		//Ä¬ï¿½Ï¿É¹Ø±Õ£ï¿½
 		window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		//ÉèÖÃÎª¾ø¶Ô²¼¾Ö£º
+		//ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½Ô²ï¿½ï¿½Ö£ï¿½
 		window.setLayout(null);
-		//ÉèÖÃ´°¿Ú´óÐ¡²»¿É±ä£º
+		//ï¿½ï¿½ï¿½Ã´ï¿½ï¿½Ú´ï¿½Ð¡ï¿½ï¿½ï¿½É±ä£º
 		window.setResizable(false);
 		
 		/*
-		 * ÓÃ»§±êÇ©username_label£º100 100 100 50
-		 * ÃÜÂë±êÇ©password_label£º100 200 100 50
-		 * ÓÃ»§ÃûÎÄ±¾¿òuser£º150 100 300 50
-		 * ÃÜÂëÎÄ±¾¿òpwd£º150 200 300 50
-		 * °´Å¥login£º250 300 100 50
+		 * ï¿½Ã»ï¿½ï¿½ï¿½Ç©username_labelï¿½ï¿½100 100 100 50
+		 * ï¿½ï¿½ï¿½ï¿½ï¿½Ç©password_labelï¿½ï¿½100 200 100 50
+		 * ï¿½Ã»ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½userï¿½ï¿½150 100 300 50
+		 * ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½pwdï¿½ï¿½150 200 300 50
+		 * ï¿½ï¿½Å¥loginï¿½ï¿½250 300 100 50
 		 */
-		//ÓÃ»§
-		JLabel username_label = new JLabel("ÓÃ»§");
+		//ï¿½Ã»ï¿½
+		JLabel username_label = new JLabel("ï¿½Ã»ï¿½");
 		username_label.setBounds(100, 100, 100, 50);
 		window.add(username_label);
 		
@@ -64,8 +65,8 @@ class LoginDemo extends JFrame{
 		user.setBounds(150, 100, 300, 50);
 		window.add(user);
 		
-		//ÃÜÂë
-		JLabel password=new JLabel("ÃÜÂë");
+		//ï¿½ï¿½ï¿½ï¿½
+		JLabel password=new JLabel("ï¿½ï¿½ï¿½ï¿½");
 		password.setBounds(100, 200, 100, 50);
 		window.add(password);
 		
@@ -73,41 +74,41 @@ class LoginDemo extends JFrame{
 		pwd.setBounds(150, 200, 300, 50);
 		window.add(pwd);
 		
-		//°´Å¥
-		login=new JButton("µÇÂ¼");
+		//ï¿½ï¿½Å¥
+		login=new JButton("ï¿½ï¿½Â¼");
 		login.setBounds(250, 300, 100, 50);
 		window.add(login);
 		
-		init();//µ÷ÓÃ¼àÌýÊÂ¼þ
+		init();//ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½Â¼ï¿½
 		
-		//ÉèÖÃÃæ°å¿É¼û
+		//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¼ï¿½
 		window.setVisible(true);
 	}
 	
-	//¼àÌý°´Å¥ÊÂ¼þ
+	//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¥ï¿½Â¼ï¿½
 	public void init(){
-		//µÇÂ¼°´Å¥µÄ¼àÌýÆ÷
+		//ï¿½ï¿½Â¼ï¿½ï¿½Å¥ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½
 		login.addActionListener(new ActionListener() {
-			//µ±Êó±ê±»°´ÏÂÊ±»áµ÷ÓÃ¸Ã·½·¨
+			//ï¿½ï¿½ï¿½ï¿½ê±»ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½Ã¸Ã·ï¿½ï¿½ï¿½
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				System.out.println(user.getText());
 				System.out.println(pwd.getText());
-				//ÓÃ»§Ãû¼°ÃÜÂëÕýÈ· ²»ÕýÈ·
+				//ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È· ï¿½ï¿½ï¿½ï¿½È·
 				if(user.getText().equals(username) && pwd.getText().equals(password)){
 					
 					/*
-					 * µ¯³öÌáÊ¾¿ò£ºÕýÈ·  Ìø×ª½çÃæ  µÇÂ¼Ò³ÃæÏûÊ§
+					 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½È·  ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½  ï¿½ï¿½Â¼Ò³ï¿½ï¿½ï¿½ï¿½Ê§
 					 */
-					JOptionPane .showMessageDialog(null, "ÃÜÂëÕýÈ·","µÇÂ¼ÌáÊ¾¿ò",JOptionPane.INFORMATION_MESSAGE);
+					JOptionPane .showMessageDialog(null, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È·","ï¿½ï¿½Â¼ï¿½ï¿½Ê¾ï¿½ï¿½",JOptionPane.INFORMATION_MESSAGE);
 					StudentJPanel sp=new StudentJPanel();
-					window.dispose();//¹Ø±Õ´°¿Ú£¡
+					window.dispose();//ï¿½Ø±Õ´ï¿½ï¿½Ú£ï¿½
 					
 				}else{
-					//ÃÜÂë²»ÕýÈ·  µ¯³öÌáÊ¾¿ò£º´íÎó  µÇÂ¼Ò³ÃæÎÄ±¾¿òÄÚÈÝÏûÊ§
-					JOptionPane .showMessageDialog(null, "ÃÜÂë´íÎó£¬ÇëÖØÐÂµÇÂ¼","µÇÂ¼ÌáÊ¾¿ò",JOptionPane.INFORMATION_MESSAGE);
+					//ï¿½ï¿½ï¿½ë²»ï¿½ï¿½È·  ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ò£º´ï¿½ï¿½ï¿½  ï¿½ï¿½Â¼Ò³ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§
+					JOptionPane .showMessageDialog(null, "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½Â¼","ï¿½ï¿½Â¼ï¿½ï¿½Ê¾ï¿½ï¿½",JOptionPane.INFORMATION_MESSAGE);
 					user.setText(null);
-					pwd.setText(null);//ÉèÖÃÄÚÈÝÎª¿Õ
+					pwd.setText(null);//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½
 					
 				}
 				
